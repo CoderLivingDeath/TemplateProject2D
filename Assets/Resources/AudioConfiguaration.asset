@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe7b8953ae04b1f4b9bd9bd16cd3df92, type: 3}
+  m_Name: AudioConfiguaration
+  m_EditorClassIdentifier: Assembly-CSharp::AudioConfiguration
+  audioMixer: {fileID: 24100000, guid: 42bcc2d190e0b524eb2dfcdcb553892a, type: 2}
+  _GlobalAudioVolumeVariableKey: GlobalVolume
+  _MusicAudioVolumeVariableKey: MusicVolume
+  _SoundAudioVolumeVariableKey: SoundVolume

@@ -6,7 +6,7 @@ AudioMixerGroupController:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Musix
+  m_Name: Music
   m_AudioMixer: {fileID: 24100000}
   m_GroupID: 0e327ed57b9aba74c8cbefdd6fd00bef
   m_Children: []
@@ -48,7 +48,13 @@ AudioMixerController:
   m_SuspendThreshold: -80
   m_EnableSuspend: 1
   m_UpdateMode: 0
-  m_ExposedParameters: []
+  m_ExposedParameters:
+  - guid: 7179e3169c714374dbcac88c1a5ac42f
+    name: GlobalVolume
+  - guid: 04985a27d8fe83e4badea0f55ff5b9c4
+    name: MusicVolume
+  - guid: f73f6617d037bc944a8549f2675e9992
+    name: SoundVolume
   m_AudioMixerGroupViews:
   - guids:
     - 761d334ed165f1548827a61a103f5d3f

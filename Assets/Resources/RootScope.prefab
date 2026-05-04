@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 1238022955768478937}
   - component: {fileID: 1284236958150014601}
   - component: {fileID: -5856957339739210399}
+  - component: {fileID: -2132047776099548040}
   m_Layer: 0
   m_Name: RootScope
   m_TagString: Untagged
@@ -57,3 +58,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 81a11e984abdd294fb794fd116a81a26, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ProjectInstaller
+  ConfigurationProvider: {fileID: -2132047776099548040}
+--- !u!114 &-2132047776099548040
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4302294237681049341}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 67c3ab3b17ef7144fb770311330a316c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ConfigurationProvider
+  _audioConfiguration: {fileID: 11400000, guid: 3f5e974bb48a7494b8ede56b55d69336, type: 2}
+  _inputConfiuguration: {fileID: 11400000, guid: 7f948b69f48554340a0b35826fb1076f, type: 2}
+  _draftObject: {fileID: 5245606392208376757, guid: 106a8cee3c383a04d94e81e9925eae9d, type: 3}
